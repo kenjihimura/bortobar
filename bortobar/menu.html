@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <style>
+    body { 
+      background: rgb(63,94,251);
+      background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    }
+    .container {
+      display: inline-block;
+    }
+    .bouton {
+    margin:0 auto;
+    display:block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Arial;
+      font-size:15px;
+      font-weight:bold;
+      padding:9px 23px;
+      text-decoration:none;
+    }
+    .baretbor {
+      box-shadow:inset 0px 34px 0px -15px #b54b3a;
+      background-color:#a73f2d;
+      border:1px solid #241d13;
+      text-shadow:0px -1px 0px #7a2a1d;
+    }
+    .boretbar {
+      box-shadow:inset 0px 1px 0px 0px #54a3f7;
+      background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+      background-color:#007dc1;
+      border:1px solid #124d77;
+      color:#ffffff;
+      text-shadow:0px 1px 0px #154682;
+    }
+  </style>
+</head>
+<body>
+  <div id="popup-content">
+    <div class="container">
+      <img src="img/boretbar.png" alt="Bor et Bar">
+      <button class="bouton baretbor" id="bor">Bor et Bar</button>
+    </div>
+    <div class="container">
+      <img src="img/baretbor.png" alt="Bar et Bor">
+      <button class="bouton boretbar" id="bar">Bar et Bor</button>
+    </div>
+  </div>
+  <script src="action.js"></script>
+</body>
+
+</html>
